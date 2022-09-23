@@ -2,7 +2,7 @@
 let str = "naman";
 let palindromic_str = "";
 
-for(let i=0; i<str.length; i++)
+for(let i=str.length-1;i>=0;i--)
 {
 	palindromic_str+=str[i];
 }
